@@ -2,7 +2,7 @@ pandas
 pyarrow
 duckdb
 scikit-learn
-streamlit
+streamlit==1.55.0
 plotly
 ucimlrepo
 openpyxl
