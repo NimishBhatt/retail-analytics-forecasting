@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Ignore raw source data
+data/raw/*
+!data/raw/.gitkeep
+
+# Keep processed outputs for deployment
+!data/processed/
+!data/processed/*.csv
+!data/processed/*.parquet
+!data/processed/.gitkeep
+
+# Keep trained model if you want it in GitHub
+!models/
+!models/*.joblib
+!models/.gitkeep

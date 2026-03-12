@@ -1,0 +1,9 @@
+pandas
+pyarrow
+duckdb
+scikit-learn
+streamlit
+plotly
+ucimlrepo
+openpyxl
+joblib
